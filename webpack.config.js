@@ -17,7 +17,7 @@ module.exports = (env, options) => {
 
   return {
     entry: './src',
-    mode: isProd ? 'production' : 'development',
+    mode: 'development',
     output: {
       path: path.join(__dirname),
       filename: `dist/${name}.min.js`,
